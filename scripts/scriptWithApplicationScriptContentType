@@ -1,1 +1,4 @@
-return "This script should have the old application/script content-type";
+function test(){
+
+	return "This script should have the old application/script content-type";
+}
