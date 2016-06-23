@@ -6,6 +6,6 @@
   ['Canada', 'Montreal', 500],
   ['France', 'Paris', 600],
   ['RU', 'Moscow', 700]
-];]
+];
 
 return data;
