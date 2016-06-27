@@ -1,0 +1,10 @@
+<script>
+	<scriptACL>
+		<execute>anonymous</execute>
+		<read>anonymous</read>
+		<write>anonymous</write>
+	</scriptACL>
+	<code><![CDATA[
+ 		var queryDocument = apsdb.callApi("Query", { "apsdb.query" : 'apsdb.documentKey = "keyDefaultStore"', "apsdb.queryFields" : "apsdb.documentKey" } , null);return { queryDocument : queryDocument };
+	]]></code>
+</script> 
